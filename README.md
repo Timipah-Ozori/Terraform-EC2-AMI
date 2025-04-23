@@ -14,69 +14,69 @@ Using Terraform to automate the creation of EC2 instance on AWS and then create 
 
 ## 1. Created a directory called terraform-ec2-ami
 
-![](./1.%20Directory%20created.png)
+![](./img/1.%20Directory%20created.png)
 
 
- ![](./1.%20Directory%20createdd.png)
+ ![](./img/1.%20Directory%20createdd.png)
 
 ## 2. Created a `main.tf` file 
 
-![](2.%20main.png)
+![](./img/2.%20main.png)
 
 ## 3. Provider block defined for AWS access and region.
 
-![](3.%20terraform%20code.png)
+![](./img/3.%20terraform%20code.png)
 
 
 ## Resources for aws instance defined from `launch instance`
 
-![](aws%201.png)
+![](./img/aws%201.png)
 
-![](aws%202.png)
+![](./img/aws%202.png)
 
 ## 4. `Terraform init` initiating terraform
 
-![](4.%20terraform%20init.png)
+![](./img/4.%20terraform%20init.png)
 
 ## 5. `Terraform Validate`
 
-![](5.%20terraform%20validate.png)
+![](./img/5.%20terraform%20validate.png)
 
 ## 6. `Terraform list`
 
-![](6.%20terraform%20apply%20list.png)
+![](./img/6.%20terraform%20apply%20list.png)
 
 
-![](6.%20terraform%20apply%20listt.png)
+![](./img/6.%20terraform%20apply%20listt.png)
 
 ## 7. `Terraform apply`
 
 
-![](6.%20terraform%20apply.png)
+![](./img/6.%20terraform%20apply.png)
 
 
 ## 8. Instance created successfully on AWS
 
-![](7.%20Instance%20Created.png)
+![](./img/7.%20Instance%20Created.png)
 
 ## 9. Resource AMI created from the instance created.
 
-![](8.%20ami.png)
+![](./img/8.%20ami.png)
 
 ## 10. AMI resource added and applied
 
-![](9.%20terraform%20apply.png)
+![](./img/9.%20terraform%20apply.png)
 
 # 11. `Terraform Apply`
 
-![](10.%20terraform%20apply%20list.png)
+![](./img/10.%20terraform%20apply%20list.png)
 
-![](10.%20terraform%20apply%20list%202.png)
+![](./img/10.%20terraform%20apply%20list%202.png)
 
-![](10.%20terraform%20apply%20list%203.png)
+![](./img/10.%20terraform%20apply%20list%203.png)
 
 # 12. AMI successfully created on AWS 
 
-![](11.%20ami%20created.png)
+![](./img/11.%20ami%20created.png)
 
-![](11.%20ami%20createdd.png)
+![](./img/11.%20ami%20createdd.png)
