@@ -12,6 +12,16 @@ Using Terraform to automate the creation of EC2 instance on AWS and then create 
 
 ## Steps:
 
+Firstly AWS configure is a key setup, terraform uses AWS provider and AWS credentials is needed to autenticate and allow deployment of infrastructures like EC2, S3 etc.
+
+`AWS Configure`
+
+![](./img/aws%20configure.png)
+
+
+
+![](./img/caller%20identity.png)
+
 ## 1. Created a directory called terraform-ec2-ami
 
 ![](./img/1.%20Directory%20created.png)
@@ -19,11 +29,14 @@ Using Terraform to automate the creation of EC2 instance on AWS and then create 
 
  ![](./img/1.%20Directory%20createdd.png)
 
-## 2. Created a `main.tf` file 
+Then Using visual studio environment 
+
+
+## 2. A `main.tf` file was created
 
 ![](./img/2.%20main.png)
 
-## 3. Provider block defined for AWS access and region.
+## 3. Provider block defined for AWS access authentication and region.
 
 ![](./img/3.%20terraform%20code.png)
 
@@ -80,3 +93,14 @@ Using Terraform to automate the creation of EC2 instance on AWS and then create 
 ![](./img/11.%20ami%20created.png)
 
 ![](./img/11.%20ami%20createdd.png)
+
+13. `Terraform destroy` 
+
+Delete all resources created earlier.
+This is to destroy instance and ami
+
+![](./img/12.%20destroy.png)
+
+![](./img/12.%20destroyy.png)
+
+
